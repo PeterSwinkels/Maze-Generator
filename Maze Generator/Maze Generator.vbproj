@@ -25,7 +25,7 @@
     </DocumentationFile>
     <NoWarn>
     </NoWarn>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
     <WarningLevel>0</WarningLevel>
   </PropertyGroup>
@@ -40,7 +40,7 @@
     </DocumentationFile>
     <NoWarn>
     </NoWarn>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
     <WarningLevel>0</WarningLevel>
   </PropertyGroup>
@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cell.vb" />
+    <Compile Include="Core.vb" />
     <Compile Include="Interface.vb">
       <SubType>Form</SubType>
     </Compile>
